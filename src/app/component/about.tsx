@@ -1,6 +1,8 @@
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 import Image from 'next/image';
+import ahmed from "../public/ahmed.jpg"
+
 
 const About = () => {
     return (<div id="about">
@@ -10,7 +12,7 @@ const About = () => {
             <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
               alt="hero"
-              src={require("../public/Ahmed.jpg")}
+              src={ahmed}
               width={300}
               height={400}
             />
@@ -20,8 +22,8 @@ const About = () => {
               About Me
             </h1>
             <p className="mb-5 leading-relaxed">
-            Hi Im <strong>Ahmed Rao</strong>, a passionate front-end developer with a love for creating beautiful, user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code and modern design principles.
-            Let's build something amazing together!
+            Hi Im <strong>Ahmed Rao</strong>a passionate front-end developer with a love for creating beautiful, user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code and modern design principles.
+            Let's build something amazing together
             </p>
             <div className="flex justify-center">
              
