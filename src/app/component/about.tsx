@@ -23,7 +23,7 @@ const About = () => {
             </h1>
             <p className="mb-5 leading-relaxed">
             Hi Im <strong>Ahmed Rao</strong>a passionate front-end developer with a love for creating beautiful, user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through clean, efficient code and modern design principles.
-            Let's build something amazing together
+            Lets build something amazing together
             </p>
             <div className="flex justify-center">
              
